@@ -25,7 +25,7 @@ class AlgebraVectorial:
         return [escalar * x for x in b]
     def componente(self, a, b):
         return self.producto_punto(a, b) / self.magnitud(b)
-
+#Aplicativo
 av = AlgebraVectorial()
 a = [2, 4]
 b = [4, -2]

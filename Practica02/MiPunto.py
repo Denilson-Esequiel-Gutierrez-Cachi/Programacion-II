@@ -19,7 +19,7 @@ class MiPunto:
             x = args[0]
             y = args[1]
             return math.sqrt((self.x - x)**2 + (self.y - y)**2)
-
+#aplicativo
 p1 = MiPunto()
 p2 = MiPunto(10, 30.5)
 print("Distancia:", p1.distancia(p2))

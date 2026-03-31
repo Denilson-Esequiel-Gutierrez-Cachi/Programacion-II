@@ -29,7 +29,7 @@ class Vector3D:
         )
     def __str__(self):
         return f"({self.x},{self.y},{self.z})"
-
+#Aplicativo
 v1 = Vector3D(1,2,3)
 v2 = Vector3D(4,5,6)
 
