@@ -28,7 +28,7 @@ class Libro:
         return f"Libro [titulo='{self.titulo}', isbn='{self.isbn}']"
 
 # =========================
-# CLASES SIMPLES (AUTOR Y ESTUDIANTE)
+# CLASES (AUTOR Y ESTUDIANTE)
 # =========================
 class Autor:
     def __init__(self, nom, nac):
